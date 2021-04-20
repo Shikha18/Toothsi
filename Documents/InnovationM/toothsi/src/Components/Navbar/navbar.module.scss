@@ -1,0 +1,33 @@
+.container {
+  ul {
+      list-style: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0;
+      padding: 15px 36px;
+      li {
+        font-weight: 800;
+        font-size: 16px;
+          img {
+
+              width: 20px;
+          }
+      }
+      li:hover {
+          background-color: #ccc;
+          padding: 5px;
+          border-radius: 5px;
+      }
+  }
+}
+
+@media (max-width:768px) {
+    .container {
+        ul {
+            width: 80%;
+            justify-content: space-between;
+        }
+    }
+}
