@@ -1,0 +1,151 @@
+.bg-img {
+    /* The image used */
+    background-image: url(./Images/simone-daino-w1SbuSN0wco-unsplash.jpg);
+
+    min-height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+    height: 30vh;
+}
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    margin-left: 50px;
+    width: auto;
+    background-color: #000;
+  }
+
+  .netflix{
+    color: red !important;
+    font-family: inherit !important;
+    font-weight: bolder !important;
+    font-size: 1.5em !important;
+  }
+  
+  /* The navbar */
+  .topnav {
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100vw;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .rightnav{
+    width: 50vw;
+    justify-content: flex-end !important;
+    display: flex;
+  }
+
+  .search {
+      width: 2.5em;
+      height: 1.5em;
+  }
+
+  .action{
+    font-size: 22px;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 8px;
+  }
+
+  .actionContainer{
+    margin-top: 30em;
+    margin-bottom: 5em;
+  }
+  
+  .heading {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .card{
+    height: 11em;
+    width: 17em;
+    border-radius: 5px;
+    }
+  .videoCard{
+    background-color: #000000;
+    margin-bottom: 30px;
+  }
+
+  .lastContainer{
+    background-color: #000;
+    color: grey;
+    margin-left: 20em;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    margin-right: 20em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastContainerIcon{
+    letter-spacing: 30px;
+    padding-bottom: 15px;
+  }
+
+  .tabletd{
+    text-align: left;
+    padding-right: 28px;
+    font-size: 16px;
+   }
+
+   .tabletd td {
+    padding: 0 0 15px 0;
+   }
+
+   .originals{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+   }
+
+   .serviceBtn{
+    border: 1px solid;
+    padding: 5px;
+    background-color: #000;
+    color: grey;
+   }
+
+@media only screen and (max-width: 1000px) {
+    .topnav a {
+        text-align: left;
+        color: lawngreen;
+    }
+    .serviceBtn {
+        color: lawngreen;
+        background-color: #fff;
+    }
+
+    .heading, .originals {
+        font-size: 55px;
+        color: #bebebf;
+        font-weight: 600;
+    }
+}
+  
